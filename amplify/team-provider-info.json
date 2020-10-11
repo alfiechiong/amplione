@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-amplione-dev-173746-authRole",
-      "UnauthRoleArn": "arn:aws:iam::139345353283:role/amplify-amplione-dev-173746-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::139345353283:role/amplify-amplione-dev-173746-authRole",
-      "Region": "ap-northeast-1",
-      "DeploymentBucketName": "amplify-amplione-dev-173746-deployment",
-      "UnauthRoleName": "amplify-amplione-dev-173746-unauthRole",
-      "StackName": "amplify-amplione-dev-173746",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:139345353283:stack/amplify-amplione-dev-173746/54b66a60-0b8c-11eb-9a04-0ae3ffe7265e",
-      "AmplifyAppId": "d1vjvsxmef0e0y"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplione-dev-173746-authRole",
+            "UnauthRoleArn": "arn:aws:iam::139345353283:role/amplify-amplione-dev-173746-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::139345353283:role/amplify-amplione-dev-173746-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-amplione-dev-173746-deployment",
+            "UnauthRoleName": "amplify-amplione-dev-173746-unauthRole",
+            "StackName": "amplify-amplione-dev-173746",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:139345353283:stack/amplify-amplione-dev-173746/54b66a60-0b8c-11eb-9a04-0ae3ffe7265e",
+            "AmplifyAppId": "d1vjvsxmef0e0y"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1vjvsxmef0e0y",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
